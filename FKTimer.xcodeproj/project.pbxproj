@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0910C5222E259E00712A74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0910C4222E259E00712A74 /* AppDelegate.m */; };
+		4A0910C8222E259E00712A74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0910C7222E259E00712A74 /* ViewController.m */; };
+		4A0910CB222E259E00712A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0910C9222E259E00712A74 /* Main.storyboard */; };
+		4A0910CD222E259F00712A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0910CC222E259F00712A74 /* Assets.xcassets */; };
+		4A0910D0222E259F00712A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0910CE222E259F00712A74 /* LaunchScreen.storyboard */; };
+		4A0910D3222E259F00712A74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0910D2222E259F00712A74 /* main.m */; };
+		4A0910DB222E26DC00712A74 /* FKTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0910DA222E26DC00712A74 /* FKTimerViewController.m */; };
+		4A0910DE222E395F00712A74 /* FKProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0910DD222E395F00712A74 /* FKProxy.m */; };
+		4A0910E4222E44D700712A74 /* NSTimer+FKCustomTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0910E3222E44D700712A74 /* NSTimer+FKCustomTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A0910C0222E259E00712A74 /* FKTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0910C3222E259E00712A74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A0910C4222E259E00712A74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A0910C6222E259E00712A74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A0910C7222E259E00712A74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A0910CA222E259E00712A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0910CC222E259F00712A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0910CF222E259F00712A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A0910D1222E259F00712A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0910D2222E259F00712A74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A0910D9222E26DC00712A74 /* FKTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKTimerViewController.h; sourceTree = "<group>"; };
+		4A0910DA222E26DC00712A74 /* FKTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKTimerViewController.m; sourceTree = "<group>"; };
+		4A0910DC222E395F00712A74 /* FKProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKProxy.h; sourceTree = "<group>"; };
+		4A0910DD222E395F00712A74 /* FKProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKProxy.m; sourceTree = "<group>"; };
+		4A0910E2222E44D700712A74 /* NSTimer+FKCustomTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+FKCustomTimer.h"; sourceTree = "<group>"; };
+		4A0910E3222E44D700712A74 /* NSTimer+FKCustomTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+FKCustomTimer.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0910BD222E259E00712A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0910B7222E259E00712A74 = {
+			isa = PBXGroup;
+			children = (
+				4A0910C2222E259E00712A74 /* FKTimer */,
+				4A0910C1222E259E00712A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0910C1222E259E00712A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0910C0222E259E00712A74 /* FKTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0910C2222E259E00712A74 /* FKTimer */ = {
+			isa = PBXGroup;
+			children = (
+				4A0910C3222E259E00712A74 /* AppDelegate.h */,
+				4A0910C4222E259E00712A74 /* AppDelegate.m */,
+				4A0910C6222E259E00712A74 /* ViewController.h */,
+				4A0910C7222E259E00712A74 /* ViewController.m */,
+				4A0910D9222E26DC00712A74 /* FKTimerViewController.h */,
+				4A0910DA222E26DC00712A74 /* FKTimerViewController.m */,
+				4A0910DC222E395F00712A74 /* FKProxy.h */,
+				4A0910DD222E395F00712A74 /* FKProxy.m */,
+				4A0910E2222E44D700712A74 /* NSTimer+FKCustomTimer.h */,
+				4A0910E3222E44D700712A74 /* NSTimer+FKCustomTimer.m */,
+				4A0910C9222E259E00712A74 /* Main.storyboard */,
+				4A0910CC222E259F00712A74 /* Assets.xcassets */,
+				4A0910CE222E259F00712A74 /* LaunchScreen.storyboard */,
+				4A0910D1222E259F00712A74 /* Info.plist */,
+				4A0910D2222E259F00712A74 /* main.m */,
+			);
+			path = FKTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0910BF222E259E00712A74 /* FKTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0910D6222E259F00712A74 /* Build configuration list for PBXNativeTarget "FKTimer" */;
+			buildPhases = (
+				4A0910BC222E259E00712A74 /* Sources */,
+				4A0910BD222E259E00712A74 /* Frameworks */,
+				4A0910BE222E259E00712A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FKTimer;
+			productName = FKTimer;
+			productReference = 4A0910C0222E259E00712A74 /* FKTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0910B8222E259E00712A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = finley;
+				TargetAttributes = {
+					4A0910BF222E259E00712A74 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A0910BB222E259E00712A74 /* Build configuration list for PBXProject "FKTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0910B7222E259E00712A74;
+			productRefGroup = 4A0910C1222E259E00712A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0910BF222E259E00712A74 /* FKTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0910BE222E259E00712A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0910D0222E259F00712A74 /* LaunchScreen.storyboard in Resources */,
+				4A0910CD222E259F00712A74 /* Assets.xcassets in Resources */,
+				4A0910CB222E259E00712A74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0910BC222E259E00712A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0910DE222E395F00712A74 /* FKProxy.m in Sources */,
+				4A0910C8222E259E00712A74 /* ViewController.m in Sources */,
+				4A0910D3222E259F00712A74 /* main.m in Sources */,
+				4A0910C5222E259E00712A74 /* AppDelegate.m in Sources */,
+				4A0910E4222E44D700712A74 /* NSTimer+FKCustomTimer.m in Sources */,
+				4A0910DB222E26DC00712A74 /* FKTimerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A0910C9222E259E00712A74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0910CA222E259E00712A74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A0910CE222E259F00712A74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0910CF222E259F00712A74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0910D4222E259F00712A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A0910D5222E259F00712A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0910D7222E259F00712A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FKTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guahao.doctor.FKTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0910D8222E259F00712A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FKTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guahao.doctor.FKTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0910BB222E259E00712A74 /* Build configuration list for PBXProject "FKTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0910D4222E259F00712A74 /* Debug */,
+				4A0910D5222E259F00712A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0910D6222E259F00712A74 /* Build configuration list for PBXNativeTarget "FKTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0910D7222E259F00712A74 /* Debug */,
+				4A0910D8222E259F00712A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0910B8222E259E00712A74 /* Project object */;
+}
